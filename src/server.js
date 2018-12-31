@@ -1,7 +1,7 @@
 import { Config } from './config/config';
 import { Server } from './servers/server';
 import { UsersRouter } from './routers/usersRouter';
-import { UserService } from './services/UserService';
+import { UserService } from './services/userService';
 
 var config =new Config()
     .setPort(3000)

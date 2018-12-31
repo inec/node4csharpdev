@@ -1,4 +1,3 @@
-//import { UserService } from '../ser/services/UserService';
 import { UserService} from '../services/userService';
 var express =require('express');
 
