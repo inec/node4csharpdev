@@ -5,7 +5,11 @@ import { UserService } from './services/UserService';
 
 var config =new Config()
     .setPort(3000)
-    .addTransient("UserService", UserService)
+    .addTransient("UserService", UserService);
+
+ new Server(config)
+    .addRouter("/api/users", new UsersRouter(config))
+    .start(); 
 /*const express = require("express");
 
 var app=express();
