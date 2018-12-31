@@ -7,6 +7,7 @@ import { UserService} from '../services/userService';
 //api users
 export class UsersRouter  {
     constructor(config) {
+        if(!config) throw new Error("Config not defined");
         this.config=config;
         this.userService = config.getService("UserService");
 
