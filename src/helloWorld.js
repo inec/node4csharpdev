@@ -1,6 +1,6 @@
  export class HelloWorld{
     sayHello(){
-        console.log("msg4 -5 diif6 ");
+        console.log("msg -watch  dii- 6 ");
     }
 }
 
