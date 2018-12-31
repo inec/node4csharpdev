@@ -10,8 +10,8 @@ export class UsersRouter  {
         if(!config) throw new Error("Config not defined");
         this.config=config;
        // this.userService = config.getService("UserService");
-       this.userService = config.getUserService();
 
+       this.userService = config.getUserService();
         if(!this.userService) throw Error("UserSwevice is not found");
 
     }
