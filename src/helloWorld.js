@@ -1,5 +1,5 @@
  export class HelloWorld{
-    hi(){
+    sayHello(){
         console.log("msg4 -5 diif6 ");
     }
 }

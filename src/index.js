@@ -2,7 +2,7 @@ import {HelloWorld} from './helloWorld';
 
 
 
-new HelloWorld().hi();
+new HelloWorld().sayHello();
 //function sayHi(){}
 
 
