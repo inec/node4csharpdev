@@ -9,7 +9,8 @@ gulp.task("build", (done)=>{
         .pipe(debug())
         .pipe( babel(
             {
-                "presets":["@babel/preset-env"]
+                "presets":["@babel/preset-env"],
+                "plugins":["@babel/plugin-transform-runtime"]
             }
         )        )
         .on("error",(err)=>{

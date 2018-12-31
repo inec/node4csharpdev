@@ -4,7 +4,7 @@ import { UsersRouter } from './routers/usersRouter';
 import { UserService } from './services/userService';
 
 var config =new Config()
-    .setPort(3000)
+    .setPort(process.env.PORT || 3000)
     .addTransient("UserService", UserService);
 
  new Server(config)
