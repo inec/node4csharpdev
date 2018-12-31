@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "compile": "./node_modules/.bin/babel src --out-dir .compiled --source-map watch"
+    "compile": "./node_modules/.bin/babel src --out-dir .compiled --source-maps watch"
   },
   "babel": {
     "presets":[
