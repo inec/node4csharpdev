@@ -1,5 +1,5 @@
 import { Config } from './config/config';
-import { Server } from '.servers/server';
+import { Server } from './servers/server';
 import { UsersRouter } from './routers/usersRouter';
 import { UserService } from './services/UserService';
 

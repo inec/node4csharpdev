@@ -1,5 +1,7 @@
+import { UserService } from '../services/UserService';
 var express =require('express');
-import { UserService } from './services/UserService';
+
+
 
 //api users
 export class UsersRouter  {

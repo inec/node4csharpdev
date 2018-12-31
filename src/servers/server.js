@@ -14,6 +14,6 @@ export class Server{
     }
 
     start(){
-        this.app.listen(this.config.getPort(),() => console.log(`listen on port ${this.config.getPort()} `))
+        this.app.listen(this.config.getPort(),() => console.log(`listen on port ${this.config.getPort()} `));
     }
 }
