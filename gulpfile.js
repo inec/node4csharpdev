@@ -1,10 +1,12 @@
 const gulp  =  require("gulp");
-const debug  = require("debug");
+const debug  = require("gulp-debug");
 
 
 gulp.task("build", (done)=>{
 
-    console.log("buiding ....");
+    //console.log("buiding ....");
+    return gulp.src("src/**/*.js")
+        .pipe(debug());
     done();
 });
 
