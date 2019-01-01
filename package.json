@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/jasmine",
-    "compile": "./node_modules/.bin/babel src --out-dir .compiled --source-maps --watch"
+    "//": "./node_modules/.bin/babel src --out-dir .compiled --source-maps --watch",
+    "compile": "./node_modules/.bin/gulp",
+    "start"  : |"node  .compibled/server.js"
   },
   "repository": {
     "type": "git",
